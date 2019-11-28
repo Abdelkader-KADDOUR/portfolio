@@ -1,0 +1,245 @@
+/*~~~~~ Saïd Ziani Website Style ~~~~~*/
+
+/*~~ FONTS ~~*/
+
+/*~~ GLOBAL ~~*/
+html{height: 100%;}
+
+body{
+    height: 100%;
+    font-family: 'Cairo';
+    background-color: #f5f5f5;
+    color: #0a293b;
+    text-transform: initial;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.container{
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.align-left {
+    text-align:left ;
+}
+.align-right {
+    text-align:right ;
+}
+.align-center {
+    text-align:center ;
+}
+
+.position-center-center {
+    left: 50%;
+    position: absolute;
+    top: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1{font-size: 45px}
+h5{font-size: 22px;text-transform: initial;padding: 3px 0px}
+
+a{text-decoration: none !important; color: #0a293b; transition: 0.3s;}
+a:hover{ color: #708090 ; transition: 0.3s; }
+
+ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main{
+    opacity: 1;
+}
+
+.secondary{
+    opacity: .8;
+}
+
+/*****************/
+/* Home */
+#home{
+    height: 100%
+}
+#home img{
+    width: 100%
+}
+#home h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px
+}
+#home h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px
+}
+#home ul{
+    padding: 0px
+}
+#home ul li{
+    padding: 20px 10px;
+    font-size: 15px
+}
+/* Header */
+#header{
+    border-bottom: 2px rgba(112,128,144,.7) solid;
+    background-image: url('../img/background.png');
+    background-size: cover;
+}
+
+#header #desc{
+    font-size: 16px;
+    font-weight: 500 
+}
+
+#header .info{
+    padding: 15px 0px;
+}
+
+#header #picture{
+    border-radius: 50%;
+    border: 2px #000 solid; 
+}
+
+#header .in-pic{
+    width: 25px;
+    margin-left: 20px
+}
+
+#header #dl img{
+    margin-left: 0px !important;
+    opacity: 0.7
+}
+
+#header #dl {
+    color: rgba(112,128,144, .7);
+}
+
+#header #dl h5{
+    font-size: 17px
+}
+
+#header #dl:hover{
+    color: rgba(112,128,144, 1);
+}
+
+#header #dl:hover img{
+    opacity: 1
+}
+/***************/
+/* Content */
+#content .activity-type{
+    padding-bottom: 20px
+}
+
+#content .activity{
+    padding-bottom: 5px
+}
+
+#content .activity p{
+    margin-bottom: 0px
+}
+
+#content .activity .tasks{
+    padding-left: 20px;
+}
+
+#content .activity .tasks li{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    display: block;
+}
+
+#content .activity .tasks span{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#content .column{
+    margin-right: 100px;
+    padding: 0px
+}
+
+#content .column-small{
+    padding: 0px;
+}
+
+#content .type{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px
+}
+
+#content .title{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+#content .institution{
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 400
+}
+
+#content .keywords{
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Cairo'
+}
+
+#content .technologies{
+    font-weight: 600;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+#content .info{
+    color: #708090;
+}
+
+#content .lang{
+    font-weight: 600
+}
+
+#content .lang-row{
+    margin-right: 20px
+}
+
+#content .skill-bar{
+    margin-bottom: 20px;
+    width: 90% !important;
+}
+
+#content .skill-type{
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 15px
+}
+
+#content .sb_label{
+    font-size: 15px !important;
+}    
+
+#content #levels{
+    height: 20px;
+    width: 90%;
+    margin-bottom: 10px
+}
+
+#content .level{
+    width: 25%; 
+    border-right: 1px solid;
+    border-left: 1px solid;
+    text-align: center;
+}
+
+#content .pipe{
+    font-size: 12px
+}
